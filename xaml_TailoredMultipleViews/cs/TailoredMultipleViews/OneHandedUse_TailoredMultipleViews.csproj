@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{4E44140D-4A40-44F6-94EA-828468A73D83}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OneHandedUse_TailoredMultipleViews</RootNamespace>
+    <AssemblyName>OneHandedUse_TailoredMultipleViews</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10069.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10069.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UAP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage_OneHanded.xaml.cs">
+      <DependentUpon>MainPage_OneHanded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Albums.xaml.cs">
+      <DependentUpon>Albums.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Collections.xaml.cs">
+      <DependentUpon>Collections.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\Model.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\SharedSamplesContent\media\smalltile-sdk.png">
+      <Link>Assets\smalltile-sdk.png</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\media\splash-sdk.png">
+      <Link>Assets\splash-sdk.png</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\media\squaretile-sdk.png">
+      <Link>Assets\squaretile-sdk.png</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\1.jpg">
+      <Link>Images\1.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\10.jpg">
+      <Link>Images\10.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\11.jpg">
+      <Link>Images\11.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\12.jpg">
+      <Link>Images\12.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\13.jpg">
+      <Link>Images\13.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\14.jpg">
+      <Link>Images\14.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\15.jpg">
+      <Link>Images\15.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\16.jpg">
+      <Link>Images\16.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\17.jpg">
+      <Link>Images\17.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\18.jpg">
+      <Link>Images\18.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\19.jpg">
+      <Link>Images\19.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\2.jpg">
+      <Link>Images\2.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\20.jpg">
+      <Link>Images\20.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\21.jpg">
+      <Link>Images\21.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\22.jpg">
+      <Link>Images\22.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\23.jpg">
+      <Link>Images\23.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\24.jpg">
+      <Link>Images\24.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\25.jpg">
+      <Link>Images\25.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\3.jpg">
+      <Link>Images\3.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\4.jpg">
+      <Link>Images\4.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\5.jpg">
+      <Link>Images\5.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\6.jpg">
+      <Link>Images\6.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\7.jpg">
+      <Link>Images\7.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\8.jpg">
+      <Link>Images\8.jpg</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\large\9.jpg">
+      <Link>Images\9.jpg</Link>
+    </Content>
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="..\..\..\SharedSamplesContent\media\smalltile-sdk.png">
+      <Link>Assets\smallTile-sdk.png</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\media\splash-sdk.png">
+      <Link>Assets\splash-sdk.png</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\media\squaretile-sdk.png">
+      <Link>Assets\squareTile-sdk.png</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\media\storelogo-sdk.png">
+      <Link>Assets\storeLogo-sdk.png</Link>
+    </Content>
+    <Content Include="..\..\..\SharedSamplesContent\media\tile-sdk.png">
+      <Link>Assets\tile-sdk.png</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage_OneHanded.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Albums.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Collections.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="DisplaySizeHelper\DisplaySizeHelper.vcxproj">
+      <Project>{f8a147ce-9fab-44c5-aa1c-bb2e16e8ff41}</Project>
+      <Name>DisplaySizeHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
