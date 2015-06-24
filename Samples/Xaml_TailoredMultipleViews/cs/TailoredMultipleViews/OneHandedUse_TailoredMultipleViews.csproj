@@ -118,104 +118,104 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smalltile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squaretile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\1.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\1.jpg">
       <Link>Images\1.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\10.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\10.jpg">
       <Link>Images\10.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\11.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\11.jpg">
       <Link>Images\11.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\12.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\12.jpg">
       <Link>Images\12.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\13.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\13.jpg">
       <Link>Images\13.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\14.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\14.jpg">
       <Link>Images\14.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\15.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\15.jpg">
       <Link>Images\15.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\16.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\16.jpg">
       <Link>Images\16.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\17.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\17.jpg">
       <Link>Images\17.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\18.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\18.jpg">
       <Link>Images\18.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\19.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\19.jpg">
       <Link>Images\19.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\2.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\2.jpg">
       <Link>Images\2.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\20.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\20.jpg">
       <Link>Images\20.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\21.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\21.jpg">
       <Link>Images\21.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\22.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\22.jpg">
       <Link>Images\22.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\23.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\23.jpg">
       <Link>Images\23.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\24.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\24.jpg">
       <Link>Images\24.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\25.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\25.jpg">
       <Link>Images\25.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\3.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\3.jpg">
       <Link>Images\3.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\4.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\4.jpg">
       <Link>Images\4.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\5.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\5.jpg">
       <Link>Images\5.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\6.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\6.jpg">
       <Link>Images\6.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\7.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\7.jpg">
       <Link>Images\7.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\8.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\8.jpg">
       <Link>Images\8.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\large\9.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\9.jpg">
       <Link>Images\9.jpg</Link>
     </Content>
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="..\..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smallTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squareTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\storelogo-sdk.png">
       <Link>Assets\storeLogo-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\tile-sdk.png">
       <Link>Assets\tile-sdk.png</Link>
     </Content>
   </ItemGroup>

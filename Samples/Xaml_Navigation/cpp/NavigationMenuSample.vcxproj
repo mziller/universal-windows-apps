@@ -95,7 +95,7 @@
     <PackageCertificateKeyFile>NavigationMenuSample_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <IncludePath>$(VC_IncludePath);$(UniversalCRT_IncludePath);$(WindowsSDK_IncludePath);..\..\SharedSamplesContent\cpp</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(UniversalCRT_IncludePath);$(WindowsSDK_IncludePath);..\..\..\SharedContent\cpp</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
@@ -234,13 +234,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smalltile-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squaretile-sdk.png</Link>
     </Image>
     <Image Include="Assets\StoreLogo.scale-100.png">

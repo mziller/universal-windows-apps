@@ -93,12 +93,12 @@
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\SharedSamplesContent\cs\App.xaml.cs">
+    <Compile Include="..\..\..\SharedContent\cs\App.xaml.cs">
       <Link>App.xaml.cs</Link>
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="CustomMediaTransportControls.cs" />
-    <Compile Include="..\..\SharedSamplesContent\cs\MainPage.xaml.cs">
+    <Compile Include="..\..\..\SharedContent\cs\MainPage.xaml.cs">
       <Link>MainPage.xaml.cs</Link>
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -136,12 +136,12 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="..\..\SharedSamplesContent\xaml\App.xaml">
+    <ApplicationDefinition Include="..\..\..\SharedContent\xaml\App.xaml">
       <Link>App.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="..\..\SharedSamplesContent\cs\MainPage.xaml">
+    <Page Include="..\..\..\SharedContent\cs\MainPage.xaml">
       <Link>MainPage.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -174,7 +174,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="..\..\SharedSamplesContent\xaml\Styles.xaml">
+    <Page Include="..\..\..\SharedContent\xaml\Styles.xaml">
       <Link>Styles\Styles.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -190,42 +190,42 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Media\ElephantsDream.jpg" />
-    <Content Include="..\..\SharedSamplesContent\large\multivideo-with-captions.mkv">
+    <Content Include="..\..\..\SharedContent\large\multivideo-with-captions.mkv">
       <Link>Assets\Media\multivideo-with-captions.mkv</Link>
     </Content>
     <Content Include="Assets\Media\multivideo.jpg" />
-    <Content Include="..\..\SharedSamplesContent\large\multivideo.mp4">
+    <Content Include="..\..\..\SharedContent\large\multivideo.mp4">
       <Link>Assets\Media\multivideo.mp4</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\ElephantsDream-Clip-H264_SD-AAC_eng-AAC_spa-AAC_eng_commentary-SRT_eng-SRT_por-SRT_swe.mkv">
+    <Content Include="..\..\..\SharedContent\large\ElephantsDream-Clip-H264_SD-AAC_eng-AAC_spa-AAC_eng_commentary-SRT_eng-SRT_por-SRT_swe.mkv">
       <Link>Assets\Media\ElephantsDream-Clip-H264_SD-AAC_eng-AAC_spa-AAC_eng_commentary-SRT_eng-SRT_por-SRT_swe.mkv</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\ElephantsDream-Clip-H264_SD-AAC_eng-AAC_spa-AAC_eng_commentary.mp4">
+    <Content Include="..\..\..\SharedContent\large\ElephantsDream-Clip-H264_SD-AAC_eng-AAC_spa-AAC_eng_commentary.mp4">
       <Link>Assets\Media\ElephantsDream-Clip-H264_SD-AAC_eng-AAC_spa-AAC_eng_commentary.mp4"</Link>
     </Content>
     <Content Include="Assets\Media\ElephantsDream-Clip-SRT_en.srt" />
     <Content Include="Assets\Media\ElephantsDream-Clip-SRT_pt.srt" />
     <Content Include="Assets\Media\ElephantsDream-Clip-SRT_sv.srt" />
-    <Content Include="..\..\SharedSamplesContent\large\multiaudio.mkv">
+    <Content Include="..\..\..\SharedContent\large\multiaudio.mkv">
       <Link>Assets\Media\multiaudio.mkv</Link>
     </Content>
     <Content Include="Assets\Media\sintel.jpg" />
     <Content Include="Assets\Media\sintel_trailer-480p.mp4">
       <Link>Assets\Media\sintel_trailer-480p.mp4</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smallTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squareTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\storelogo-sdk.png">
       <Link>Assets\storeLogo-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\tile-sdk.png">
       <Link>Assets\tile-sdk.png</Link>
     </Content>
   </ItemGroup>

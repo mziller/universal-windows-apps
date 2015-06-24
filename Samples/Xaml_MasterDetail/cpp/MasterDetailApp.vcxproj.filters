@@ -54,19 +54,19 @@
     <Page Include="DetailPage.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\smalltile-sdk.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\splash-sdk.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\squaretile-sdk.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\storelogo-sdk.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\tile-sdk.png">
       <Filter>Assets</Filter>
     </Image>
   </ItemGroup>

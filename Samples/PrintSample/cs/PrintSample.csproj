@@ -90,7 +90,7 @@
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\SharedSamplesContent\cs\App.xaml.cs">
+    <Compile Include="..\..\..\SharedContent\cs\App.xaml.cs">
       <Link>App.xaml.cs</Link>
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -102,7 +102,7 @@
     </Compile>
     <Compile Include="PrintHelper.cs" />
     <Compile Include="ContinuationPage.xaml.cs" />
-    <Compile Include="..\..\SharedSamplesContent\cs\MainPage.xaml.cs">
+    <Compile Include="..\..\..\SharedContent\cs\MainPage.xaml.cs">
       <Link>MainPage.xaml.cs</Link>
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -130,7 +130,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="..\..\SharedSamplesContent\xaml\App.xaml">
+    <ApplicationDefinition Include="..\..\..\SharedContent\xaml\App.xaml">
       <Link>App.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -139,7 +139,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\..\SharedSamplesContent\cs\MainPage.xaml">
+    <Page Include="..\..\..\SharedContent\cs\MainPage.xaml">
       <Link>MainPage.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -176,54 +176,54 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\..\SharedSamplesContent\xaml\Styles.xaml">
+    <Page Include="..\..\..\SharedContent\xaml\Styles.xaml">
       <Link>Styles\Styles.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\SharedSamplesContent\large\photo1.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo1.jpg">
         <Link>Assets\photo1.jpg</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\photo2.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo2.jpg">
         <Link>Assets\photo2.jpg</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\photo3.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo3.jpg">
         <Link>Assets\photo3.jpg</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\photo4.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo4.jpg">
         <Link>Assets\photo4.jpg</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\photo5.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo5.jpg">
         <Link>Assets\photo5.jpg</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\photo6.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo6.jpg">
         <Link>Assets\photo6.jpg</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\photo7.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo7.jpg">
         <Link>Assets\photo7.jpg</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\photo8.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo8.jpg">
         <Link>Assets\photo8.jpg</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\large\photo9.jpg">
+    <Content Include="..\..\..\SharedContent\large\photo9.jpg">
         <Link>Assets\photo9.jpg</Link>
     </Content>
     <Content Include="Assets\print_1.png" />
-    <Content Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smallTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squareTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\storelogo-sdk.png">
       <Link>Assets\storeLogo-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\tile-sdk.png">
       <Link>Assets\tile-sdk.png</Link>
     </Content>
   </ItemGroup>

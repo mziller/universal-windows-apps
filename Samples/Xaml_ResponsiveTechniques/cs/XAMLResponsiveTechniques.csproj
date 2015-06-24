@@ -109,13 +109,13 @@
     <Content Include="Assets\Background3.png" />
     <Content Include="Assets\Background4.png" />
     <Content Include="Assets\Background5.png" />
-    <Content Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smalltile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squaretile-sdk.png</Link>
     </Content>
     <Content Include="Properties\Default.rd.xml" />

@@ -98,7 +98,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>$(VC_IncludePath);$(UniversalCRT_IncludePath);$(WindowsSDK_IncludePath);..\..\SharedSamplesContent\cpp</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(UniversalCRT_IncludePath);$(WindowsSDK_IncludePath);..\..\..\SharedContent\cpp</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
@@ -175,19 +175,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smalltile-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squaretile-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\storelogo-sdk.png">
       <Link>Assets\storelogo-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\tile-sdk.png">
       <Link>Assets\tile-sdk.png</Link>
     </Image>
   </ItemGroup>

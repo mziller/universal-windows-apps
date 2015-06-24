@@ -47,43 +47,43 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="camera.html" />
-    <Content Include="..\..\SharedSamplesContent\media\microsoft-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\microsoft-sdk.png">
         <Link>images\microsoft-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\smalltile-sdk.png">
         <Link>images\smallTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\splash-sdk.png">
         <Link>images\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\storelogo-sdk.png">
         <Link>images\storeLogo-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\tile-sdk.png">
         <Link>images\tile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\windows-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\windows-sdk.png">
         <Link>images\windows-sdk.png</Link>
     </Content>
     <Content Include="js\camera.js" />
     <Content Include="css\camera.css" />
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\css\ui-dark.css">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\css\ui-dark.css">
         <Link>WinJS\css\ui-dark.css</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\css\ui-light.css">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\css\ui-light.css">
         <Link>WinJS\css\ui-light.css</Link>
     </Content>
     <Content Include="WinJS\fonts\Symbols.ttf" />
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\js\en-US\ui.strings.js">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\js\en-US\ui.strings.js">
         <Link>WinJS\js\en-US\ui.strings.js</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.js">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.js">
         <Link>WinJS\js\WinJS.js</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.intellisense.js">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.intellisense.js">
         <Link>WinJS\js\WinJS.intellisense.js</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.intellisense-setup.js">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.intellisense-setup.js">
         <Link>WinJS\js\WinJS.intellisense-setup.js</Link>
     </Content>
   </ItemGroup>

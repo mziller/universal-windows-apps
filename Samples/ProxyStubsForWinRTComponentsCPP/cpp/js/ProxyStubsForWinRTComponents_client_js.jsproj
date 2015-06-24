@@ -46,69 +46,69 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Content Include="..\..\..\SharedSamplesContent\js\default.html">
+    <Content Include="..\..\..\..\SharedContent\js\default.html">
         <Link>default.html</Link>
     </Content>
     <Content Include="html\scenario1-oven-client.html" />
     <Content Include="html\scenario2-custom-exception.html" />
-    <Content Include="..\..\..\SharedSamplesContent\media\microsoft-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\microsoft-sdk.png">
         <Link>images\microsoft-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\smalltile-sdk.png">
         <Link>images\smallTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\splash-sdk.png">
         <Link>images\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\storelogo-sdk.png">
         <Link>images\storeLogo-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\tile-sdk.png">
         <Link>images\tile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\windows-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\windows-sdk.png">
         <Link>images\windows-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\js\default.js">
+    <Content Include="..\..\..\..\SharedContent\js\js\default.js">
         <Link>js\default.js</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\css\default.css">
+    <Content Include="..\..\..\..\SharedContent\js\css\default.css">
         <Link>css\default.css</Link>
     </Content>
     <Content Include="js\sample-configuration.js" />
     <Content Include="js\scenario1-oven-client.js" />
     <Content Include="js\scenario2-custom-exception.js" />
-    <Content Include="..\..\..\SharedSamplesContent\js\Microsoft.WinJS\css\ui-dark.css">
+    <Content Include="..\..\..\..\SharedContent\js\Microsoft.WinJS\css\ui-dark.css">
         <Link>Microsoft.WinJS.4.0\css\ui-dark.css</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\Microsoft.WinJS\css\ui-light.css">
+    <Content Include="..\..\..\..\SharedContent\js\Microsoft.WinJS\css\ui-light.css">
         <Link>Microsoft.WinJS.4.0\css\ui-light.css</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\Microsoft.WinJS\js\en-US\ui.strings.js">
+    <Content Include="..\..\..\..\SharedContent\js\Microsoft.WinJS\js\en-US\ui.strings.js">
         <Link>Microsoft.WinJS.4.0\js\en-US\ui.strings.js</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.intellisense-setup.js">
+    <Content Include="..\..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.intellisense-setup.js">
         <Link>Microsoft.WinJS.4.0\js\WinJS.intellisense-setup.js</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.intellisense.js">
+    <Content Include="..\..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.intellisense.js">
         <Link>Microsoft.WinJS.4.0\js\WinJS.intellisense.js</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.js">
+    <Content Include="..\..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.js">
         <Link>Microsoft.WinJS.4.0\js\WinJS.js</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\sample-utils\footer.html">
+    <Content Include="..\..\..\..\SharedContent\js\sample-utils\footer.html">
         <Link>sample-utils\footer.html</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\sample-utils\header.html">
+    <Content Include="..\..\..\..\SharedContent\js\sample-utils\header.html">
         <Link>sample-utils\header.html</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\sample-utils\sample-utils.js">
+    <Content Include="..\..\..\..\SharedContent\js\sample-utils\sample-utils.js">
         <Link>sample-utils\sample-utils.js</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\sample-utils\scenario-select.css">
+    <Content Include="..\..\..\..\SharedContent\js\sample-utils\scenario-select.css">
         <Link>sample-utils\scenario-select.css</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\js\sample-utils\scenario-select.html">
+    <Content Include="..\..\..\..\SharedContent\js\sample-utils\scenario-select.html">
         <Link>sample-utils\scenario-select.html</Link>
     </Content>
   </ItemGroup>

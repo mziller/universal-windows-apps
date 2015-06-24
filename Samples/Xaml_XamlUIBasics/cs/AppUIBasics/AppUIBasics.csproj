@@ -282,29 +282,29 @@
     <Content Include="Assets\AutoSuggestBox.png" />
     <Content Include="Assets\CalendarView.png" />
     <Content Include="Assets\ContentDialog.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\fishes.wmv">
+    <Content Include="..\..\..\..\SharedContent\large\fishes.wmv">
       <Link>Assets\fishes.wmv</Link>
     </Content>
     <Content Include="Assets\Image.png" />
     <Content Include="Assets\InkCanvas.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\ladybug.wmv">
+    <Content Include="..\..\..\..\SharedContent\large\ladybug.wmv">
       <Link>Assets\ladybug.wmv</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\Logo.png</Link>
     </Content>
     <Content Include="Assets\MediaElement.png" />
     <Content Include="Assets\ninegrid.gif" />
     <Content Include="Assets\Pivot.png" />
     <Content Include="Assets\RelativePanel.png" />
-    <Content Include="..\..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\SmallLogo.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\SplashScreen.png</Link>
     </Content>
     <Content Include="Assets\SplitView.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\treetops.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\treetops.jpg">
       <Link>Assets\treetops.jpg</Link>
     </Content>
     <Content Include="DataModel\ControlInfoData.json" />
@@ -322,7 +322,7 @@
     <Content Include="Assets\Button.png" />
     <Content Include="Assets\Canvas.png" />
     <Content Include="Assets\CheckBox.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\cliff.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\cliff.jpg">
       <Link>Assets\cliff.jpg</Link>
     </Content>
     <Content Include="Assets\ComboBox.png" />
@@ -341,12 +341,12 @@
     <Content Include="Assets\DatePicker.png" />
     <Content Include="Assets\FlipView.png" />
     <Content Include="Assets\Flyout.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\grapes.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\grapes.jpg">
       <Link>Assets\grapes.jpg</Link>
     </Content>
     <Content Include="Assets\Grid.png" />
     <Content Include="Assets\GridView.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\HeroImage.png">
+    <Content Include="..\..\..\..\SharedContent\large\HeroImage.png">
       <Link>Assets\HeroImage.png</Link>
     </Content>
     <Content Include="Assets\Hub.png" />
@@ -360,7 +360,7 @@
     <Content Include="Assets\ProgressBar.png" />
     <Content Include="Assets\ProgressRing.png" />
     <Content Include="Assets\RadioButton.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\rainier.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\rainier.jpg">
       <Link>Assets\rainier.jpg</Link>
     </Content>
     <Content Include="Assets\RichEditBox.png" />
@@ -372,7 +372,7 @@
     <Content Include="Assets\Slices2.png" />
     <Content Include="Assets\Slider.png" />
     <Content Include="Assets\StackPanel.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\sunset.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\sunset.jpg">
       <Link>Assets\sunset.jpg</Link>
     </Content>
     <Content Include="Assets\TextBlock.png" />
@@ -381,7 +381,7 @@
     <Content Include="Assets\ToggleButton.png" />
     <Content Include="Assets\ToggleSwitch.png" />
     <Content Include="Assets\ToolTip.png" />
-    <Content Include="..\..\..\SharedSamplesContent\large\valley.jpg">
+    <Content Include="..\..\..\..\SharedContent\large\valley.jpg">
       <Link>Assets\valley.jpg</Link>
     </Content>
     <Content Include="Assets\VariableSizedWrapGrid.png" />

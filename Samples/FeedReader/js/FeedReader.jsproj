@@ -58,25 +58,25 @@
     <Content Include="default.html" />
     <Content Include="feedCollection.json" />
     <Content Include="images\LargeRSSLogo-background-white.png" />
-    <Content Include="..\..\SharedSamplesContent\media\microsoft-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\microsoft-sdk.png">
         <Link>images\microsoft-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\smalltile-sdk.png">
         <Link>images\smalltile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\splash-sdk.png">
         <Link>images\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\squaretile-sdk.png">
         <Link>images\squaretile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\storelogo-sdk.png">
         <Link>images\storelogo-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\tile-sdk.png">
         <Link>images\tile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\media\windows-sdk.png">
+    <Content Include="..\..\..\SharedContent\media\windows-sdk.png">
         <Link>images\windows-sdk.png</Link>
     </Content>
     <Content Include="js\data.js" />
@@ -84,22 +84,22 @@
     <Content Include="js\io.js" />
     <Content Include="js\navigator.js" />
     <Content Include="js\render.js" />
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\css\ui-dark.css">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\css\ui-dark.css">
         <Link>Microsoft.WinJS.4.0\css\ui-dark.css</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\css\ui-light.css">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\css\ui-light.css">
         <Link>Microsoft.WinJS.4.0\css\ui-light.css</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\js\en-US\ui.strings.js">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\js\en-US\ui.strings.js">
         <Link>Microsoft.WinJS.4.0\js\en-US\ui.strings.js</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.intellisense-setup.js">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.intellisense-setup.js">
         <Link>Microsoft.WinJS.4.0\js\WinJS.intellisense-setup.js</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.intellisense.js">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.intellisense.js">
         <Link>Microsoft.WinJS.4.0\js\WinJS.intellisense.js</Link>
     </Content>
-    <Content Include="..\..\SharedSamplesContent\js\Microsoft.WinJS\js\WinJS.js">
+    <Content Include="..\..\..\SharedContent\js\Microsoft.WinJS\js\WinJS.js">
         <Link>Microsoft.WinJS.4.0\js\WinJS.js</Link>
     </Content>
     <Content Include="pages\article\article.css" />

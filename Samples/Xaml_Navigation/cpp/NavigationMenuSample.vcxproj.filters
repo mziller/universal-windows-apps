@@ -84,13 +84,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\smalltile-sdk.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\splash-sdk.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\squaretile-sdk.png">
       <Filter>Assets</Filter>
     </Image>
     <Image Include="Assets\StoreLogo.scale-100.png">

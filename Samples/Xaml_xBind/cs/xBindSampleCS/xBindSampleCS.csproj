@@ -88,7 +88,7 @@
     <UseDotNetNativeToolChain>true</UseDotNetNativeToolChain>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\SharedSamplesContent\xaml\App.xaml">
+    <Compile Include="..\..\..\..\SharedContent\xaml\App.xaml">
       <Link>App.xaml.cs</Link>
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -168,25 +168,25 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\SharedSamplesContent\media\microsoft-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\microsoft-sdk.png">
       <Link>Assets\microsoft-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smallTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squareTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\storelogo-sdk.png">
       <Link>Assets\storeLogo-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\tile-sdk.png">
       <Link>Assets\tile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedSamplesContent\media\windows-sdk.png">
+    <Content Include="..\..\..\..\SharedContent\media\windows-sdk.png">
       <Link>Assets\windows-sdk.png</Link>
     </Content>
   </ItemGroup>

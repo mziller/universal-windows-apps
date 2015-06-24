@@ -92,7 +92,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>$(VC_IncludePath);$(UniversalCRT_IncludePath);$(WindowsSDK_IncludePath);..\..\SharedSamplesContent\cpp</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(UniversalCRT_IncludePath);$(WindowsSDK_IncludePath);..\..\..\SharedContent\cpp</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
@@ -132,11 +132,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="..\..\SharedSamplesContent\cpp\App.xaml.h">
-      <DependentUpon>..\..\SharedSamplesContent\xaml\App.xaml</DependentUpon>
+    <ClInclude Include="..\..\..\SharedContent\cpp\App.xaml.h">
+      <DependentUpon>..\..\..\SharedContent\xaml\App.xaml</DependentUpon>
     </ClInclude>
-    <ClInclude Include="..\..\SharedSamplesContent\cpp\MainPage.xaml.h">
-      <DependentUpon>..\..\SharedSamplesContent\cpp\MainPage.xaml</DependentUpon>
+    <ClInclude Include="..\..\..\SharedContent\cpp\MainPage.xaml.h">
+      <DependentUpon>..\..\..\SharedContent\cpp\MainPage.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="SampleConfiguration.h" />
 
@@ -170,10 +170,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="..\..\SharedSamplesContent\xaml\App.xaml">
+    <ApplicationDefinition Include="..\..\..\SharedContent\xaml\App.xaml">
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="..\..\SharedSamplesContent\cpp\MainPage.xaml">
+    <Page Include="..\..\..\SharedContent\cpp\MainPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="SetErrorMessage.xaml" />
@@ -185,7 +185,7 @@
     <Page Include="ShareImage.xaml" />
     <Page Include="ShareText.xaml" />
     <Page Include="ShareWebLink.xaml" />
-    <Page Include="..\..\SharedSamplesContent\xaml\Styles.xaml">
+    <Page Include="..\..\..\SharedContent\xaml\Styles.xaml">
       <Link>Styles\Styles.xaml</Link>
     </Page>
   </ItemGroup>
@@ -195,11 +195,11 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\SharedSamplesContent\cpp\App.xaml.cpp">
-      <DependentUpon>..\..\SharedSamplesContent\xaml\App.xaml</DependentUpon>
+    <ClCompile Include="..\..\..\SharedContent\cpp\App.xaml.cpp">
+      <DependentUpon>..\..\..\SharedContent\xaml\App.xaml</DependentUpon>
     </ClCompile>
-    <ClCompile Include="..\..\SharedSamplesContent\cpp\MainPage.xaml.cpp">
-      <DependentUpon>..\..\SharedSamplesContent\cpp\MainPage.xaml</DependentUpon>
+    <ClCompile Include="..\..\..\SharedContent\cpp\MainPage.xaml.cpp">
+      <DependentUpon>..\..\..\SharedContent\cpp\MainPage.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -257,19 +257,19 @@
     <Image Include="Assets\visualStudioLogo.scale-180.png">
       <Link>Assets\visualStudioLogo.scale-180.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\smalltile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smalltile-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\splash-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\squaretile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squaretile-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\storelogo-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\storelogo-sdk.png">
       <Link>Assets\storelogo-sdk.png</Link>
     </Image>
-    <Image Include="..\..\SharedSamplesContent\media\tile-sdk.png">
+    <Image Include="..\..\..\SharedContent\media\tile-sdk.png">
       <Link>Assets\tile-sdk.png</Link>
     </Image>
   </ItemGroup>
