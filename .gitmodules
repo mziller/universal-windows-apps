@@ -1,0 +1,3 @@
+[submodule "SharedSamplesContent/large"]
+	path = SharedSamplesContent/large
+	url = https://github.com/oldnewthing/samples-large-content.git
