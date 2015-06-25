@@ -183,32 +183,23 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\SharedContent\large\photo1.jpg">
+    <Content Include="..\..\..\SharedContent\large\cliff.jpg">
         <Link>Assets\photo1.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\large\photo2.jpg">
+    <Content Include="..\..\..\SharedContent\large\grapes.jpg">
         <Link>Assets\photo2.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\large\photo3.jpg">
+    <Content Include="..\..\..\SharedContent\large\rainier.jpg">
         <Link>Assets\photo3.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\large\photo4.jpg">
+    <Content Include="..\..\..\SharedContent\large\sunset.jpg">
         <Link>Assets\photo4.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\large\photo5.jpg">
+    <Content Include="..\..\..\SharedContent\large\treetops.jpg">
         <Link>Assets\photo5.jpg</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\large\photo6.jpg">
+    <Content Include="..\..\..\SharedContent\large\valley.jpg">
         <Link>Assets\photo6.jpg</Link>
-    </Content>
-    <Content Include="..\..\..\SharedContent\large\photo7.jpg">
-        <Link>Assets\photo7.jpg</Link>
-    </Content>
-    <Content Include="..\..\..\SharedContent\large\photo8.jpg">
-        <Link>Assets\photo8.jpg</Link>
-    </Content>
-    <Content Include="..\..\..\SharedContent\large\photo9.jpg">
-        <Link>Assets\photo9.jpg</Link>
     </Content>
     <Content Include="Assets\print_1.png" />
     <Content Include="..\..\..\SharedContent\media\smalltile-sdk.png">

@@ -138,7 +138,7 @@ namespace SDKTemplate
         /// <summary>
         /// The app's number of photos.
         /// </summary>
-        static const int NumberOfPhotos = 9;
+        static const int NumberOfPhotos = 6;
 
         /// <summary>
         /// Constant for 96 DPI
